@@ -3,5 +3,17 @@
 # Использовать функцию type() для проверки типа.
 # Элементы списка можно не запрашивать у пользователя, а указать явно, в программе.
 
+test_list = ['Это', 'непростой', 'набор', 'из', 8, 'слов', 'и', 2, 'цифр.', 'Это -', True]
+print(test_list)
+print(type(test_list))
 
+counter = 1
+id = 0
+len(test_list)
+while True:
+    print("'", test_list[id], "'", ' - тип данных: ', type(test_list[id]))
+    id += 1
+    counter += 1
+    if counter > len(test_list):
+        break
 
